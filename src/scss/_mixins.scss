@@ -3,3 +3,35 @@
 
 
 
+@mixin fw100 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+@mixin fw300 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+@mixin fw400 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+@mixin fw500 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+@mixin fw700 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+@mixin mp0 {
+  margin: 0;
+  padding: 0;
+}
+@mixin liststlyle {
+  list-style: none;
+}
