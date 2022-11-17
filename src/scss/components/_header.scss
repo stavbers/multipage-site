@@ -1,0 +1,67 @@
+.header {
+  color: $textColor;
+
+  &__home {
+  }
+}
+
+.header-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  padding-top: 10px;
+  width: 66px;
+  width: 55px;
+}
+.header-info {
+  display: flex;
+  align-items: center;
+}
+.header-socials {
+  @include mp0;
+  @include liststlyle;
+  display: flex;
+  margin-right: 100px;
+  &__item {
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+
+  &__link {
+  }
+}
+.header-contacts {
+  margin-right: 50px;
+  text-align: center;
+  & a {
+    @include fw700;
+    display: block;
+    color: $accentColor;
+    font-size: 19px;
+    line-height: 23px;
+  }
+  & span {
+    @include fw300;
+    font-size: 11px;
+    line-height: 16px;
+    display: block;
+  }
+}
+.header-phone {
+
+}
+.header-btn {
+
+  &__link {
+    padding: 8px 13px;
+    font-size: 14px;
+    line-height: 18px;
+    color: $textColor;
+    background-color: $btnColor;
+    border-radius: 10px;
+  }
+}
