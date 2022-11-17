@@ -1,0 +1,79 @@
+.advantage__img .abs_controll {
+  top: 23px;
+  left: 16px;
+}
+.advantage {
+  padding-top: 30px;
+  padding-bottom: 70px;
+  text-align: center;
+
+  &__title {
+    @include mp0;
+    @include fw700;
+    font-size: 30px;
+    line-height: 39px;
+    padding-bottom: 68px;
+    color: $textColor;
+    & span {
+      color: $accentColor;
+    }
+  }
+
+  &__item {
+    position: relative;
+    width: 275px;
+    height: 180px;
+    padding: 0px 15px;
+    background-color: $bgColor;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 3px 10px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 3px 10px -3px rgba(0,0,0,0.75);
+box-shadow: 4px 3px 10px -3px rgba(0,0,0,0.75);
+  }
+
+  &__img {
+    position: absolute;
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: $bgColor;
+    top: -40px;
+    left: 110px;
+    -webkit-box-shadow: 4px 3px 10px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 3px 10px -3px rgba(0,0,0,0.75);
+box-shadow: 4px 3px 10px -3px rgba(0,0,0,0.75);
+    & img {
+      position: absolute;
+      top: 16px;
+      left: 18px;
+      max-width: 100%;
+      height: auto;
+      max-width: 36px;
+    }
+  }
+  
+
+  &__subTitle {
+    @include mp0;
+    @include fw700;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 34px;
+  }
+
+  &__descr {
+    @include fw300;
+    color: $textColor;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+.advantage-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
