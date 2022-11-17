@@ -83,6 +83,7 @@ a {
 
 .header-logo {
   padding-top: 10px;
+  padding-bottom: 10px;
   width: 66px;
   width: 55px;
 }
@@ -138,5 +139,31 @@ a {
   color: #111111;
   background-color: #F47220;
   border-radius: 10px;
+}
+
+.header-menu {
+  border-top: 1px solid rgba(17, 17, 17, 0.4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.header-menu__item {
+  padding-top: 10px;
+}
+.header-menu__item a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #111111;
+  font-size: 14px;
+  line-height: 18px;
 }
 /*# sourceMappingURL=main.css.map */
