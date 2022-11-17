@@ -1,0 +1,97 @@
+.screen1 {
+  background-color: $bgColor;
+
+  &__item {}
+}
+
+.screen1-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.screen1-info {
+  width: 516px;
+  margin-right: 86px;
+  margin-bottom: 90px;
+
+  &__title {
+    @include mp0;
+    @include fw700;
+    padding-top: 64px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    line-height: 64px;
+
+    & span {
+      color: $accentColor;
+    }
+  }
+
+  &__link {
+    background-color: $btnColor;
+    border-radius: 10px;
+    color: $textColor;
+    padding: 13px 21px;
+
+  }
+}
+
+.screen1-services {}
+
+.screen1-list {
+  @include mp0;
+  @include liststlyle;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  width: 270px;
+  height: 200px;
+  border-radius: 10px;
+  background-size: cover;
+  position: relative;
+
+  &_bg1 {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-image: url(../../img/screen1-1.png);
+
+  }
+
+  &_bg2 {
+    background-image: url(../../img/screen1-2.png);
+    margin-bottom: 20px;
+  }
+
+  &_bg3 {
+    background-image: url(../../img/screen1-3.png);
+    margin-right: 20px;
+  }
+
+  &_bg4 {
+    background-image: url(../../img/screen1-4.png);
+  }
+
+  &__price {
+    color: $textColor;
+    display: block;
+    padding-top: 20px;
+    margin-left: 20px;
+    @include fw700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  &__descr {
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    @include fw400;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
