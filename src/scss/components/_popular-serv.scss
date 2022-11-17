@@ -1,0 +1,66 @@
+.popular-serv {
+text-align: center;
+color: $textColor;
+  &__title {
+@include mp0;
+@include fw700;
+font-size: 30px;
+line-height: 39px;
+padding-bottom: 22px;
+& span {
+  color: $accentColor;
+}
+  }
+
+  &__list {
+    @include mp0;
+    @include liststlyle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__item {
+    margin-right: 21px;
+    border-radius: 10px;
+    margin-bottom: 45px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+
+  &__img {
+    width: 373px;
+    height: 250px;
+  }
+
+  &__subTitle {
+    @include mp0;
+    @include fw700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font: 18px;
+    line-height: 23px;
+  }
+
+  &__price {
+    @include fw700;
+    display: block;
+    color: $btnColor;
+    font: 18px;
+    line-height: 23px;
+    margin-bottom: 15px;
+  }
+
+  &__link {
+    @include fw300;
+    font-size: 14px;
+    line-height: 18px;
+    color: $textColor;
+    border-radius: 10px;
+    border: 1px solid $btnColor;
+    padding: 5px 10px;
+
+  }
+}
+

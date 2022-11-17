@@ -345,4 +345,76 @@ a {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+
+.popular-serv {
+  text-align: center;
+  color: #111111;
+}
+.popular-serv__title {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  padding-bottom: 22px;
+}
+.popular-serv__title span {
+  color: #007198;
+}
+.popular-serv__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.popular-serv__item {
+  margin-right: 21px;
+  border-radius: 10px;
+  margin-bottom: 45px;
+}
+.popular-serv__item:last-child {
+  margin-right: 0px;
+}
+.popular-serv__img {
+  width: 373px;
+  height: 250px;
+}
+.popular-serv__subTitle {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font: 18px;
+  line-height: 23px;
+}
+.popular-serv__price {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  display: block;
+  color: #F47220;
+  font: 18px;
+  line-height: 23px;
+  margin-bottom: 15px;
+}
+.popular-serv__link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #111111;
+  border-radius: 10px;
+  border: 1px solid #F47220;
+  padding: 5px 10px;
+}
 /*# sourceMappingURL=main.css.map */
