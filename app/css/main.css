@@ -604,4 +604,57 @@ a {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+
+.gallery {
+  color: #111111;
+  margin-bottom: 40px;
+}
+.gallery__title {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  margin-bottom: 22px;
+}
+.gallery__title span {
+  color: #007198;
+}
+.gallery__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+.gallery__item:last-child {
+  margin-right: 0px;
+}
+.gallery__item img {
+  width: 280px;
+  height: 400px;
+}
+.gallery__link {
+  display: block;
+  text-align: center;
+  max-width: 155px;
+  font-size: 14px;
+  border-radius: 7px;
+  margin: 0 auto;
+  background-color: #F47220;
+  padding: 10px 15px;
+  color: #111111;
+}
+
+.gallery-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
 /*# sourceMappingURL=main.css.map */
