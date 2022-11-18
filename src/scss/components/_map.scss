@@ -1,0 +1,46 @@
+.map {
+  margin-top: 45px;
+  margin-bottom: 75px;
+  color: $textColor;
+
+  &__title {
+    @include mp0;
+    margin-bottom: 12px;
+
+    & span {
+      color: $accentColor;
+    }
+  }
+
+  &__descr {
+    @include mp0;
+    @include fw300;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 7px;
+    max-width: 560px;
+
+    &_accent {
+      @include fw700;
+      color: $accentColor;
+    }
+  }
+
+  &__g-Map {
+    width: 560px;
+    height: 330px;
+
+    & img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.map-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.map-info {}

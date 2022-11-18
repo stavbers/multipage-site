@@ -555,4 +555,53 @@ a {
   font-size: 16px;
   text-align: center;
 }
+
+.map {
+  margin-top: 45px;
+  margin-bottom: 75px;
+  color: #111111;
+}
+.map__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 12px;
+}
+.map__title span {
+  color: #007198;
+}
+.map__descr {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 7px;
+  max-width: 560px;
+}
+.map__descr_accent {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #007198;
+}
+.map__g-Map {
+  width: 560px;
+  height: 330px;
+}
+.map__g-Map img {
+  width: 100%;
+  height: auto;
+}
+
+.map-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
 /*# sourceMappingURL=main.css.map */
