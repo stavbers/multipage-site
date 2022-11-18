@@ -1,0 +1,101 @@
+.footer {
+  background-color: $bgColor;
+color: $textColor;
+  &__subTitile {
+    @include mp0;
+    @include fw700;
+    margin-bottom: 26px;
+  }
+
+  &__list {
+    @include mp0;
+    @include liststlyle;
+  }
+
+  &__item {
+  }
+}
+
+.footer-top-wrp {
+  display: flex;
+  justify-content: space-between;
+}
+.top-wrp {
+
+  &__item {
+    margin-top: 40px;
+
+    & a {
+      color: $textColor;
+      line-height: 22px;
+    }
+  }
+
+  &__logo {
+
+  }
+
+  &__link {
+    @include fw700;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: $textColor;
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  &__mail {
+    @include mp0;
+    @include fw700;
+    margin-right: 20px;
+    font-size: 16px;
+    &:last-child {
+      margin-right: 0px;
+    }
+    & span {
+      @include fw300;
+      display: block;
+      font-size: 14px;
+    }
+  }
+}
+.footer-botm-wrp {
+  display: flex;
+  margin-top: 40px;
+  border-top: 1px solid rgba($color: $textColor, $alpha: .4);
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  &__item {
+
+  }
+}
+.footer-socials {
+  @include mp0;
+  @include liststlyle;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__item {
+    margin-right: 10px;
+
+  }
+
+  &__link {
+    color: $textColor;
+  }
+}
+
+
+.top-wrp__item_bold {
+  @include fw700;
+  margin-top: 80px;
+}
