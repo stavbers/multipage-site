@@ -1,0 +1,41 @@
+.calc {
+color: $textColor;
+padding-top: 30px;
+padding-bottom: 45px;
+margin-top: 45px;
+background-color: $bgColor;
+  &__title {
+    @include mp0;
+    @include fw700;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    margin-bottom: 10px;
+    & span {
+      color: $accentColor;
+    }
+  }
+
+  &__subTitle {
+    @include mp0;
+    @include fw300;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 10px;
+  }
+}
+
+.calc-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__item {
+    & input {
+      border: 1px solid #888888;
+      color: #888888;
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+}
