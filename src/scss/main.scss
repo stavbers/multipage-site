@@ -5,17 +5,17 @@
 @import "settings";
 
 // подключения компонентов страницы
-@import "./components/header";
-@import "./components/screen1";
-@import "./components/advantage";
-@import "./components/popular-serv";
-@import "./components/all-serv";
-@import "./components/calc";
-@import "./components/map";
-@import "./components/gallery";
-@import "./components/reviews";
-@import "./components/last-news";
-@import "./components/footer";
+@import "./components/homePage/header";
+@import "./components/homePage/screen1";
+@import "./components/homePage/advantage";
+@import "./components/homePage/popular-serv";
+@import "./components/homePage/all-serv";
+@import "./components/homePage/calc";
+@import "./components/homePage/map";
+@import "./components/homePage/gallery";
+@import "./components/homePage/reviews";
+@import "./components/homePage/last-news";
+@import "./components/homePage/footer";
 
 
 
