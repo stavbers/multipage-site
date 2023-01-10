@@ -167,6 +167,43 @@ a {
   line-height: 18px;
 }
 
+.title {
+  background-color: #DAF1F9;
+}
+
+.title-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.title-text {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-top: 19px;
+  margin-bottom: 19px;
+  font-size: 50px;
+  line-height: 64px;
+}
+
+.title-descr {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  width: 510px;
+  font-size: 18px;
+  line-height: 23px;
+}
+
 .footer {
   background-color: #DAF1F9;
   color: #111111;

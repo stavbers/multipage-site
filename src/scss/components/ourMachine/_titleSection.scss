@@ -1,0 +1,28 @@
+.title {
+background-color: #DAF1F9;
+}
+
+
+
+.title-wrp {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.title-text {
+@include mp0;
+@include fw500;
+margin-top: 19px;
+margin-bottom: 19px;
+font-size: 50px;
+line-height: 64px;
+}
+
+.title-descr {
+@include mp0;
+@include fw400;
+width: 510px;
+font-size: 18px;
+line-height: 23px;
+}
