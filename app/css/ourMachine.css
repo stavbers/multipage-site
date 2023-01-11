@@ -259,6 +259,14 @@ a {
   line-height: 23px;
 }
 
+.ourChemicals__item {
+  width: 275px;
+}
+
+.ourChemicals__img {
+  height: 130px;
+}
+
 .footer {
   background-color: #DAF1F9;
   color: #111111;
