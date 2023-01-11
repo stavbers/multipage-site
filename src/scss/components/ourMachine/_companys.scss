@@ -1,0 +1,27 @@
+.companys {
+padding-top: 80px;
+   & span {
+    @include fw400;
+    font-size: 18px;
+    line-height: 23px;
+   }
+  &__list {
+    @include mp0;
+    @include liststlyle;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 45px;
+  }
+
+  &__item {
+    margin-right: 78px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+
+  &__img {
+  }
+}
