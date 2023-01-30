@@ -1,0 +1,10 @@
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+
+@import "./components/header";
+@import "./components/educations/first-screen";
+
+@import "./components/footer";

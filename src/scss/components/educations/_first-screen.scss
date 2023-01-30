@@ -1,0 +1,40 @@
+.first-screen {
+color: $textColor;
+background-color: #48B8DF33;
+  &__wrp {
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+  }
+
+  &__info {
+  }
+
+  &__title {
+    @include mp0;
+    @include fw700;
+    margin-top: 65px;
+    max-width: 560px;
+    font-size: 50px;
+    line-height: 64px;
+    & span {
+      color: $accentColor;
+    }
+  }
+
+  &__descr {
+    @include mp0;
+    @include fw400;
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  &__image {
+    margin-top: 45px;
+    max-width: 560px;
+  }
+
+  &__img {
+  }
+}
+
