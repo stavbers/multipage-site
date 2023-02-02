@@ -204,6 +204,40 @@ a {
   margin-top: 45px;
   max-width: 560px;
 }
+.second-screen {
+  padding-top: 45px;
+  padding-bottom: 65px;
+}
+.second-screen__image {
+  margin-bottom: 30px;
+}
+.second-screen__wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.second-screen__descr {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  max-width: 563px;
+  margin-right: 75px;
+  font-family: Futura PT;
+  font-size: 18px;
+  line-height: 23px;
+}
+.second-screen__descr:last-child {
+  margin-right: 0px;
+}
+.second-screen__descr span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
 .footer {
   background-color: #DAF1F9;
   color: #111111;

@@ -1,0 +1,29 @@
+.second-screen {
+  padding-top: 45px;
+  padding-bottom: 65px;
+  &__image {
+    margin-bottom: 30px;
+  }
+
+  &__wrp {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__descr {
+    @include mp0;
+    @include fw400;
+    max-width: 563px;
+    margin-right: 75px;
+    &:last-child{
+      margin-right: 0px;
+    }
+    font-family: Futura PT;
+   font-size: 18px;
+   line-height: 23px;
+    & span {
+      @include fw500;
+    }
+  }
+}
+
