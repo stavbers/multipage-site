@@ -31,6 +31,27 @@ console.log((0,_functions_mobile_check__WEBPACK_IMPORTED_MODULE_0__.mobileCheck)
 // import SmoothScroll from 'smooth-scroll';
 // const scroll = new SmoothScroll('a[href*="#"]');
 
+var swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  slidesPerView: 2,
+  centeredSlides: true,
+  spaceBetween: 80,
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  } // And if we need scrollbar
+  // scrollbar: {
+  //   el: '.swiper-scrollbar',
+  // },
+
+});
+
 /***/ }),
 
 /***/ "./src/js/functions/mobile-check.js":

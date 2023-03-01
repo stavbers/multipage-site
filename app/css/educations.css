@@ -319,6 +319,19 @@ a {
   color: #007198;
 }
 
+.slider-wrp {
+  padding-bottom: 100px;
+}
+
+.image {
+  width: 600px;
+  height: 450px;
+}
+
+.swiper {
+  width: 100%;
+}
+
 .footer {
   background-color: #DAF1F9;
   color: #111111;
